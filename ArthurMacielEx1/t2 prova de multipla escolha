@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova de Múltipla Escolha</title>
+</head>
+<body>
+    <H1>Prova sobre programação </H1>
+    <ol>
+        <li>Quais as diferenças entre if e switch case </li>
+         <dl>
+            <dd>a)o if é usado para dar alternativas e o switch case para fazer um laço de repetição</dd>
+            <dd>b)nenhuma diferença os dois são iguais</dd>
+            <dd>c)Pequenas diferenças na sintaxe, mas as duas tem a mesma função</dd>
+            <dd>d)o if é uma estrutura de decisão e o switch case um tipo </dd>
+         </dl>
+         <li>Por que os vetores/arrays são usados?</li>
+         <dl>
+            <dd>a) Para nada o uso deles é totalmente facultativo</dd>
+            <dd>b)Para armazenar dados sem criar variaveis </dd>
+            <dd>c)Para fazer um laço de repetição até executar uma tarefa</dd>
+            <dd>d)Para validar o seu main </dd>
+         </dl>
+         <li>Utilizamos funçõoes para </li>
+         <dl>
+            <dd>a) Separar partes do codigo para poder repeti-las</dd>
+            <dd>b)Para armazenar dados sem criar variaveis </dd>
+            <dd>c)Deixar o código esteticamente mais agradavel </dd>
+            <dd>d)Para criar partes do código avulsas com o objetivo de reduzir a memória </dd>
+         </dl>
+         <li>O que é uma String </li>
+         <dl>
+            <dd>a) Uma função que separa partes do codigo para poder repeti-las</dd>
+            <dd>b)Para indicar um tipo que indica numeros inteiros </dd>
+            <dd>c)Um tipo de Struct</dd>
+            <dd>d)Uma cadeia de caracteres </dd>
+         </dl>
+         <li> Qual é a melhor estrutura de dados </li>
+         <dl>
+            <dd>a) Grafo, pois por ser mais complexa é mais utilizavel</dd>
+            <dd>b)Pilha por que ela é mais volatil </dd>
+            <dd>c)Fila por que é mais simples e cumpre as mesmas funões das outras </dd>
+            <dd>d) Não é possível determinar uma certa, vai depender da situação </dd>
+         </dl>
+
+    </ol>
+</body>
+</html>
