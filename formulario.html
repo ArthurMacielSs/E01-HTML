@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>formulario </h1>
+    <form action="">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="codigo">codigo:</label>
+            <input type="number" id="codigo">
+            <br>
+            <label for="nome">nome: </label>
+            <input type="text" id="nome" />
+            <br />
+            <label for="senha">senha: </label>
+            <input type="password" id="senha" />
+            <br />
+            <label 
+            for="sexo">sexo:
+                 </label>
+            <input type="radio" name="sexo" />feminino <!--tem que ser a mesma coisa (sexo) se não da pra marcar os dois-->
+            <input type="radio" name="sexo"> masculino
+            <br />
+            <label for="idade">idade: </label>
+            <input type="number" id="idade" />
+            <br />
+            <label for="cartão">Cartão de credito </label>
+            <br />
+            <select multiple>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Visa">Visa</option>
+                <option value="American Express">American Express</option>
+              </select>
+                 </fieldset>
+            <fieldset>
+                <legend>dados profissionais:</legend>
+                <label for="cargo">cargo:
+                    <select name="cargo" id="cargo"><!--name e id não alteram nada no visual do código-->
+                        <option value="Analista Junior">Analista Junior</option>
+                        <option value="Analista Pleno">Analista Pleno</option>
+                        <option value="Analista Senior">Analista Senior</option>
+                     </select>
+                </label>
+                
+                <br>
+                <label for="dados pessoais">dados pessoais</label>
+                <br>
+                <input type="checkbox" name="hábito1" value="fumante">fumante <!--name e value não alteram nada no visual do código-->
+                <br>
+                <input type="checkbox" name="hábito2" value="exercicios">pratico exercicios fisicos
+                <br>
+                <input type="checkbox" name="hábito3" value="bebida">consumo bebidas alcolicas
+                <br>
+                <label for="experiencias profissionais">experiencias profissionais:</label>
+                <br>
+                  <textarea>Data Inicio/Data fim/Empresa/Cargo</textarea>
+            
+            </fieldset>
+            
+            <input type="reset"value="limpar"> <!--value define o nome do botão reset-->
+            <input type="button" value="inserir">
+    </form>
+</body>
+</html>
